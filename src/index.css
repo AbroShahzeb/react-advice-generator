@@ -1,7 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.input-custom {
-  @apply p-4 text-lg  border-2 rounded-md border-green-200 text-green-800 placeholder:text-green-800 placeholder:font-medium placeholder:tracking-wide focus:outline-none focus:border-amber-500;
-}
