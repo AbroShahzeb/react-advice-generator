@@ -12,8 +12,8 @@ dist
 dist-ssr
 *.local
 
-design/*
-images/*
+design
+images
 
 # Editor directories and files
 .vscode/*
