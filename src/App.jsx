@@ -14,7 +14,7 @@ function App() {
   }
   return (
     <main className="bg-darkBlue w-full h-[100vh] grid place-content-center font-mainFont">
-      <div className="py-10 px-6 rounded-lg bg-darkGrayishBlue w-96 flex flex-col items-center gap-4 relative md:w-[500px]">
+      <div className="py-10 px-6 rounded-lg bg-darkGrayishBlue w-[90%] flex flex-col items-center gap-4 relative md:w-[500px]">
         <p className="text-neonGreen uppercase text-xs tracking-widest font-bold">
           Advice #{adviceCount <= 9 ? "0" + adviceCount : adviceCount}
         </p>
